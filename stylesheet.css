@@ -1,0 +1,112 @@
+/* The color family I chose is https://colorhunt.co/palette/f2f2f2eae4d5b6b09f000000.
+I felt like the reason why this color family represents the purpose of the website is because it uses mostly light colors,
+and because this website will have a lot of text explained the finished Naawi-Oodena,
+I want the text to be nice and easy to read without being too crowded.
+
+The neutral color (text and background) is F2F2F2 and 000000,
+the secondary color is B6B09F and is used for to highlight images. 
+The primary color is EAE4D5 and is used for the nav bar and footer. */
+
+body {
+  /* Changes background-color */
+  background-color: #f2f2f2;
+  /* makes all text align towards the center */
+  text-align: center;
+  /* gives the font */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* sets the color of all text */
+  color: #000000;
+  /* sets the spacing between texts */
+  line-height: 180%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-indent: 1px;
+  /* makes the overflow of text default */
+  overflow: auto;
+  /* sets white space of text, set to default */
+  white-space: normal;
+  /* sets overflow of text, set to default */
+  text-overflow: clip;
+  /* sets how words break and start on a new line, set to default*/
+  word-break: normal;
+}
+
+header {
+  /* gives amount of space between header and everything */
+  margin: 25px;
+}
+
+header p {
+  /* sets font of subheader text to bold */
+  font-weight: bold;
+}
+
+nav {
+  /* gives no list style */
+  list-style: none;
+  background-color: #eae4d5;
+  border: 2px #b6b09f solid;
+  margin: -5px;
+}
+nav ul li {
+  font-size: 20px;
+  margin: 75px;
+  /* gives space between text in the nav bar */
+  padding: 75px;
+  /* makes all text on one line */
+  display: inline;
+}
+nav a:hover {
+  /* makes it so nav bar hyperlinks turn black when you hover over them */
+  color: #000000;
+}
+
+/* makes color of the hyperlinks brown when not hovered over */
+a:link {
+  color: brown;
+}
+a {
+  color: brown;
+}
+a:visited {
+  color: brown;
+}
+a:focus {
+  /* makes hyperlinks darkred when you focus on them */
+  color: darkred;
+}
+a:hover {
+  color: #000000;
+}
+a:active {
+  color: green;
+}
+
+p {
+  font-size: 18px;
+  margin: 30px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  /* adds a line under all h1 text */
+  text-decoration: underline;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #eae4d5;
+  font-weight: bold;
+  border: 2px #b6b09f solid;
+  font-style: italic;
+  margin: -5px;
+}
+
+figure {
+  border: 2px #b6b09f solid;
+  background-color: #eae4d5;
+  margin: 50px;
+  padding: 10px;
+}

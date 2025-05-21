@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Naawi Oodena - Contact us</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page1.html">About</a></li>
+          <li><a href="page2.html">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--Header for the contact us page-->
+    <header>
+      <div>
+        <h1>Contact us</h1>
+      </div>
+    </header>
+    <main>
+      <!--Article that has the form-->
+      <article>
+        <div>
+          <form method="get" name="contact-us">
+            <!--Input for your name-->
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name-input"
+              placeholder="Name"
+              required />
+
+            <!--Input for your email-->
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email-input"
+              placeholder="someone@example.com"
+              required />
+
+            <!--Input for the subject-->
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject-input"
+              placeholder="Subject"
+              required />
+
+            <!--Input of anything you can say-->
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message-input"
+              rows="6"
+              cols="100"
+              placeholder="Message"
+              required></textarea>
+
+            <!--Submit button-->
+            <input type="submit" value="Submit Message" />
+          </form>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div>
+        <p>2040 © Naawi-Oodena</p>
+      </div>
+    </footer>
+  </body>
+</html>
